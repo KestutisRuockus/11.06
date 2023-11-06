@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inheritance</title>
+    <style>
+      body {
+        color: blueviolet;
+      }
+      .red {
+        color: red;
+        height: 150px;
+      }
+      .inherit {
+        height: inherit; /* get height from parent elemennt */
+        color: unset; /* do not get parameter from parent element */
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+      voluptates?
+    </p>
+    <div class="red">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, numquam?
+      </p>
+      <p class="inherit">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates,
+        dicta.
+      </p>
+    </div>
+  </body>
+</html>

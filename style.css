@@ -1,0 +1,23 @@
+h1 {
+  color: red;
+  font-size: 20px;
+}
+
+.blue {
+  color: blue;
+}
+
+h1.purple {
+  color: purple;
+}
+
+#tomato {
+  color: tomato;
+}
+h1#tomato {
+  color: black;
+}
+
+.important {
+  color: aquamarine !important;
+}
